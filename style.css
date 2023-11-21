@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-con{
+    width:100vw;
+    height:10vh;
+    background-color: blue;
+    position:-webkit-sticky; 
+    position: sticky;
+    top:0;
+}
+
+.main-con{
+    width:100vw;
+    height:80vh;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box{
+    height:500px;
+    width:400px;
+    background-color: rgb(255, 127, 127);
+}
+
+.cube{
+    width:950px;
+    height:150px;
+    margin:15px auto;
+    background-color: blueviolet;
+    border-radius: 50px;
+    text-align: center;
+}
+
+.cube h1{
+    padding: 30px 50px;
+    font-size: 40px;
+}
+
+.foot-con{
+    width:100vw;
+    height:100px;
+    background-color: black;
+}
